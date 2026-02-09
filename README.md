@@ -49,7 +49,24 @@ cd wiki-web
 
 2. **Install Python dependencies**:
 
-This app requires **Python 3** and **Flask**. Install Flask via pip:
+This app requires **Python 3** and **Flask**. 
+1. Install python if you havent already
+
+**For Ubuntu / Pop os / debain based systems:**
+
+```bash
+sudo apt install python3
+```
+
+**For Arch:**
+
+```bash
+sudo pacman -S python3
+```
+
+**For Windows - go to microsoft store and download from there**
+
+Install Flask via pip:
 
 ```bash
 pip install Flask
