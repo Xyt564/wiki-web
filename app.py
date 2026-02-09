@@ -72,4 +72,5 @@ def delete(title):
     return redirect(url_for("index"))
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    debug_mode = os.environ.get("FLASK_DEBUG", "").lower() in ("1", "true", "yes")
+    app.run(debug=debug_mode)
