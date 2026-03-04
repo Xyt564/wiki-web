@@ -83,7 +83,7 @@ data_file = "YOUR_LOCATION_TO_WIKI.JSON"
 For example:
 
 ```python
-data_file = "wiki.json"  # saves in the project root
+data_file = "/home/xyt564/Downloads/wiki-web/wiki.json" 
 ```
 
 The app will automatically create the file if it doesn’t exist.
